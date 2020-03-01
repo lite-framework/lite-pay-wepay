@@ -11,7 +11,6 @@ public class WePayAppPayServiceTest extends AppTest {
 
     @Test
     public void test() {
-        wePayAppPayService.test();
     }
 
 }
