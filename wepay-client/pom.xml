@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cc.common.pay.wepay</groupId>
+        <artifactId>common-pay-wepay-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>wepay-client</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>wepay-client</name>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>io.lite</groupId>
+            <artifactId>lite-framework</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+
+    </dependencies>
+</project>
