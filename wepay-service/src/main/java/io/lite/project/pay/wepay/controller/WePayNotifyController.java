@@ -58,7 +58,7 @@ public class WePayNotifyController extends Base {
     }
 
     private void notifyBiz(SortedMap<String, String> notifyParams) throws Exception {
-        var appId = notifyParams.get("appId");
+        var appId = notifyParams.get("appid");
         var wePayMerchantConfig = payConfig.getMerchantConfig(appId);
         var notifyUrl = wePayMerchantConfig.getNotify_url();
         var paySuccess = "SUCCESS".equals(notifyParams.get("result_code"));
