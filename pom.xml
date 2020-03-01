@@ -12,8 +12,8 @@
     </parent>
 
 
-    <groupId>cc.common.pay.wepay</groupId>
-    <artifactId>common-pay-wepay-parent</artifactId>
+    <groupId>io.lite.pay.wepay</groupId>
+    <artifactId>lite-pay-wepay-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
