@@ -12,7 +12,7 @@
     </parent>
 
 
-    <groupId>io.lite.pay.wepay</groupId>
+    <groupId>io.lite.project.pay.wepay</groupId>
     <artifactId>lite-pay-wepay-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
